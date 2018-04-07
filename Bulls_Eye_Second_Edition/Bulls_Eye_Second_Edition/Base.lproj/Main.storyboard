@@ -173,13 +173,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kIs-I1-RrB">
                                 <rect key="frame" x="318.5" y="303" width="729" height="418"/>
                                 <subviews>
-                                    <webView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sAu-dT-9aR">
+                                    <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sAu-dT-9aR">
                                         <rect key="frame" x="164.5" y="109" width="400" height="200"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="400" id="AUt-Xh-dCX"/>
-                                            <constraint firstAttribute="height" constant="200" id="gyH-oI-Kdh"/>
-                                        </constraints>
                                     </webView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQ1-3v-yJY">
                                         <rect key="frame" x="78.000000000000057" y="343" width="100" height="37"/>
@@ -203,8 +200,8 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="729" id="AoO-II-VRf"/>
-                                    <constraint firstAttribute="height" constant="418" id="t1p-mV-J5d"/>
+                                    <constraint firstAttribute="height" constant="418" id="car-EP-tZ9"/>
+                                    <constraint firstAttribute="width" constant="729" id="zDu-eD-mKe"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -213,8 +210,8 @@
                             <constraint firstAttribute="bottom" secondItem="mrC-DM-tM3" secondAttribute="bottom" id="0mr-wA-Mdq"/>
                             <constraint firstItem="mrC-DM-tM3" firstAttribute="leading" secondItem="MCK-rJ-HEQ" secondAttribute="leading" id="5DX-Do-Eta"/>
                             <constraint firstAttribute="trailing" secondItem="mrC-DM-tM3" secondAttribute="trailing" id="6n1-U2-SM0"/>
-                            <constraint firstItem="kIs-I1-RrB" firstAttribute="centerY" secondItem="MCK-rJ-HEQ" secondAttribute="centerY" id="MJu-uy-V4F"/>
-                            <constraint firstItem="kIs-I1-RrB" firstAttribute="centerX" secondItem="MCK-rJ-HEQ" secondAttribute="centerX" id="NZL-XM-IvG"/>
+                            <constraint firstItem="kIs-I1-RrB" firstAttribute="centerY" secondItem="MCK-rJ-HEQ" secondAttribute="centerY" id="B7W-QY-sEE"/>
+                            <constraint firstItem="kIs-I1-RrB" firstAttribute="centerX" secondItem="MCK-rJ-HEQ" secondAttribute="centerX" id="CKO-j4-Mkz"/>
                             <constraint firstItem="mrC-DM-tM3" firstAttribute="top" secondItem="MCK-rJ-HEQ" secondAttribute="top" id="tfO-du-jHz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Rbb-7d-KGb"/>
