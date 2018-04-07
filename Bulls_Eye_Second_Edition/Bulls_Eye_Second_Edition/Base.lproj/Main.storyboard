@@ -173,7 +173,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kIs-I1-RrB">
                                 <rect key="frame" x="318.5" y="303" width="729" height="418"/>
                                 <subviews>
-                                    <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sAu-dT-9aR">
+                                    <webView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sAu-dT-9aR">
                                         <rect key="frame" x="164.5" y="109" width="400" height="200"/>
                                         <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -203,10 +203,8 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="sAu-dT-9aR" firstAttribute="centerY" secondItem="kIs-I1-RrB" secondAttribute="centerY" id="Ecj-2C-QM7"/>
-                                    <constraint firstAttribute="height" constant="418" id="eDh-Pu-IlR"/>
-                                    <constraint firstAttribute="width" constant="729" id="jRj-Gb-Hce"/>
-                                    <constraint firstItem="sAu-dT-9aR" firstAttribute="centerX" secondItem="kIs-I1-RrB" secondAttribute="centerX" id="jh7-p5-wAK"/>
+                                    <constraint firstAttribute="width" constant="729" id="AoO-II-VRf"/>
+                                    <constraint firstAttribute="height" constant="418" id="t1p-mV-J5d"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -215,8 +213,8 @@
                             <constraint firstAttribute="bottom" secondItem="mrC-DM-tM3" secondAttribute="bottom" id="0mr-wA-Mdq"/>
                             <constraint firstItem="mrC-DM-tM3" firstAttribute="leading" secondItem="MCK-rJ-HEQ" secondAttribute="leading" id="5DX-Do-Eta"/>
                             <constraint firstAttribute="trailing" secondItem="mrC-DM-tM3" secondAttribute="trailing" id="6n1-U2-SM0"/>
-                            <constraint firstItem="kIs-I1-RrB" firstAttribute="centerY" secondItem="MCK-rJ-HEQ" secondAttribute="centerY" id="Ea4-CU-0c7"/>
-                            <constraint firstItem="kIs-I1-RrB" firstAttribute="centerX" secondItem="MCK-rJ-HEQ" secondAttribute="centerX" id="J15-7F-3o8"/>
+                            <constraint firstItem="kIs-I1-RrB" firstAttribute="centerY" secondItem="MCK-rJ-HEQ" secondAttribute="centerY" id="MJu-uy-V4F"/>
+                            <constraint firstItem="kIs-I1-RrB" firstAttribute="centerX" secondItem="MCK-rJ-HEQ" secondAttribute="centerX" id="NZL-XM-IvG"/>
                             <constraint firstItem="mrC-DM-tM3" firstAttribute="top" secondItem="MCK-rJ-HEQ" secondAttribute="top" id="tfO-du-jHz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Rbb-7d-KGb"/>
