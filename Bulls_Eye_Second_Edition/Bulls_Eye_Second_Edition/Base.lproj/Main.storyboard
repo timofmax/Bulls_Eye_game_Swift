@@ -173,8 +173,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kIs-I1-RrB">
                                 <rect key="frame" x="318.5" y="303" width="729" height="418"/>
                                 <subviews>
-                                    <webView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sAu-dT-9aR">
-                                        <rect key="frame" x="79" y="92" width="571" height="234"/>
+                                    <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sAu-dT-9aR">
+                                        <rect key="frame" x="164.5" y="109" width="400" height="200"/>
                                         <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="400" id="AUt-Xh-dCX"/>
@@ -203,8 +203,10 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="sAu-dT-9aR" firstAttribute="centerY" secondItem="kIs-I1-RrB" secondAttribute="centerY" id="Ecj-2C-QM7"/>
                                     <constraint firstAttribute="height" constant="418" id="eDh-Pu-IlR"/>
                                     <constraint firstAttribute="width" constant="729" id="jRj-Gb-Hce"/>
+                                    <constraint firstItem="sAu-dT-9aR" firstAttribute="centerX" secondItem="kIs-I1-RrB" secondAttribute="centerX" id="jh7-p5-wAK"/>
                                 </constraints>
                             </view>
                         </subviews>
