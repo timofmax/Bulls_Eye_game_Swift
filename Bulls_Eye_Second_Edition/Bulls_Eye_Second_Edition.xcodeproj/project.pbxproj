@@ -14,6 +14,7 @@
 		0577FF2620721D1A0083D59B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0577FF2420721D1A0083D59B /* LaunchScreen.storyboard */; };
 		0577FF4C2075F5B50083D59B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0577FF4B2075F5B50083D59B /* AboutViewController.swift */; };
 		0577FF5420779D360083D59B /* CEO_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0577FF5320779D360083D59B /* CEO_ViewController.swift */; };
+		05D7BD9E2078FDD50088BAD2 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 05D7BD9D2078FDD50088BAD2 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0577FF2720721D1A0083D59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0577FF4B2075F5B50083D59B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		0577FF5320779D360083D59B /* CEO_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEO_ViewController.swift; sourceTree = "<group>"; };
+		05D7BD9D2078FDD50088BAD2 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				0577FF1B20721D1A0083D59B /* AppDelegate.swift */,
+				05D7BD9D2078FDD50088BAD2 /* BullsEye.html */,
 				0577FF1D20721D1A0083D59B /* ViewController.swift */,
 				0577FF1F20721D1A0083D59B /* Main.storyboard */,
 				0577FF5320779D360083D59B /* CEO_ViewController.swift */,
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0577FF2620721D1A0083D59B /* LaunchScreen.storyboard in Resources */,
+				05D7BD9E2078FDD50088BAD2 /* BullsEye.html in Resources */,
 				0577FF2320721D1A0083D59B /* Assets.xcassets in Resources */,
 				0577FF2120721D1A0083D59B /* Main.storyboard in Resources */,
 			);
