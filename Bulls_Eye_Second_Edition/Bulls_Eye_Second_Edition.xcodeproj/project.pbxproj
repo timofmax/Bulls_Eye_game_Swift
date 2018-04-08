@@ -289,7 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8723YN376G;
 				INFOPLIST_FILE = Bulls_Eye_Second_Edition/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "weworkon.art.Bulls-Eye-Second-Edition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -305,7 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8723YN376G;
 				INFOPLIST_FILE = Bulls_Eye_Second_Edition/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "weworkon.art.Bulls-Eye-Second-Edition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
