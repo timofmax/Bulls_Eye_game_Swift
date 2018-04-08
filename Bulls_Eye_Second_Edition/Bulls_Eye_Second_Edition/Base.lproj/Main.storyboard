@@ -236,9 +236,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gan-Ed-aQV">
-                                <rect key="frame" x="20" y="0.0" width="694" height="394"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gan-Ed-aQV">
+                                <rect key="frame" x="20" y="20" width="694" height="374"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2018-04-06 at 15.17.04" translatesAutoresizingMaskIntoConstraints="NO" id="B5x-IO-Agf">
                                         <rect key="frame" x="492" y="36" width="202" height="184"/>
@@ -267,6 +266,12 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gan-Ed-aQV" firstAttribute="leading" secondItem="SAL-Fz-dY6" secondAttribute="leading" constant="20" id="2p7-Qh-GRy"/>
+                            <constraint firstItem="SAL-Fz-dY6" firstAttribute="trailing" secondItem="gan-Ed-aQV" secondAttribute="trailing" constant="22" id="LRp-r8-G20"/>
+                            <constraint firstItem="gan-Ed-aQV" firstAttribute="top" secondItem="SAL-Fz-dY6" secondAttribute="top" constant="20" id="R6a-BW-Mv0"/>
+                            <constraint firstItem="SAL-Fz-dY6" firstAttribute="bottom" secondItem="gan-Ed-aQV" secondAttribute="bottom" constant="20" id="RbA-8b-0DU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="SAL-Fz-dY6"/>
                     </view>
                 </viewController>
